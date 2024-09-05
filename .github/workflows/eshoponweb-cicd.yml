@@ -5,7 +5,7 @@ on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: om
+  RESOURCE-GROUP: om 
   LOCATION: westeurope 
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 56711eeb-c60b-4360-80dc-f1600a904374
